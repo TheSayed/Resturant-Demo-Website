@@ -1,0 +1,223 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.s3{
+    height: 1400px;
+    justify-content: center;
+    background-color: #eee;
+
+}
+
+
+
+.descripe{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripe h6{
+    margin-bottom: 0;
+    color: #7f7f90;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+
+.descripe h1 {
+    font-family: 'Alegreya', serif;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: rgb(217, 96, 96);
+    margin-top: 25px;
+}
+
+.descripe h1 span{
+    color: rgb(61, 65, 68)
+}
+
+
+.gallery{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 1.25rem;
+    margin: auto;
+ 
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out; ;
+}
+
+.container:hover img {
+    scale: 1.5;
+}
+
+.container{
+    width: 393px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000096;
+    color: white;
+    top: 100%;
+    transition: top 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.content p{
+    word-wrap: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover .content{
+    top:0;
+}
+
+.content h2{
+
+}
+
+.pizza{
+    width: 100%;
+}
+
+.Levitation{
+    width: 100%;
+    
+}
+
+.Beef{
+    width: 100%;
+     
+}
+
+.Frittata{
+    width: 100%;
+}
+
+.Burger{
+width: 100%;
+}
+
+.Crispy{
+width: 100%;
+}
+
+.Lyulya{
+width: 100%;
+}
+
+@media all and (max-width:1200px) {
+    .gallery{
+        width: 100%;
+    }
+    .container{
+        width: 50%
+    }
+}
+@media all and (max-width:800px) {
+        .gallery {
+                width: 100%;
+            }
+            .container {
+                width: 100%;
+            }
+}
+
+
+
+
+
+
+
